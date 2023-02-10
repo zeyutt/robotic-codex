@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
 
     //fetch data from server
     // https://codex-im0y.onrender.com/
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://robotic-codex.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
